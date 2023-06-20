@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+<br><br><br>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Hashtag</th>
+      <th scope="col">Tweets</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for i in rows %}
+    <tr>
+      <td>{{i.id}}</td>
+      <td>{{i.hashtag}}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
+{% endblock content %}

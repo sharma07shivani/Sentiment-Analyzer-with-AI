@@ -1,0 +1,155 @@
+{% extends "layout.html" %}
+{% block content %}
+<section id="welcome-hero" class="welcome-hero">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="header-text">
+							<h2><span>Sentiment Analyser with &nbsp;</span>AI</h2>
+							<p>Created by Shivani Sharma & Karanvir Singh</p>
+							<a href="#about" class="btn-get-started scrollto">Get Started</a>
+							
+						</div><!--/.header-text-->
+					</div><!--/.col-->
+				</div><!-- /.row-->
+			</div><!-- /.container-->
+
+</section>
+<section id="about" class="about">
+			<div class="section-heading text-center">
+				<h2>About the Concept</h2>
+			</div>
+			<div class="container">
+				<div class="about-content">
+					<div class = "row">
+						<div class="col-sm-6">
+							<div class="single-about-txt">
+								<h3>
+									Twitter has become one of the most widely used microblogging websites in recent years. During the last decade, its popularity has increased substantially which has produced a huge amount of data. Most of this data comes from user posts with a limited number of characters called tweets. Although tweets carry valuable information that can serve many different purposes, they are unstructured and challenging to analyze. In this project, we tried to classify tweets into three categories as positive, negative or neutral. <br>
+                                    Sentiment Analyser with AI is a Web application created to analyze sentiments from live tweets using Natural Language Processing and Deep Neural Networks. Idea is to classify the tweets as positive, negative or neutral.
+
+								</h3>
+								<p>
+									Nowadays, sentiment analysis or opinion mining is a hot topic in machine learning. We are still far from detecting the sentiments of the corpus of texts very accurately because of the complexity in the English language and even more if we consider other languages such as Chinese. In this project we tried to show the basic way of classifying tweets into positive, negative or neutral categories using RNN. We could further improve our classifier by trying to extract more features from the tweets, or trying another classifier all together.  
+								</p>
+									<div class="row">
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>Mentor</h3>
+											<p>Dr. Anita Budhiraja</p><br>
+											<p>Dr. Sarwan Singh</p>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-about-add-info">
+											<h3>email</h3>
+											<p>aa.bbuuddhhiirraajjaa@gmail.com</p><br>
+											<p>sarwan@nielit.gov.in</p>
+										</div>
+									</div>
+									&nbsp;
+								</div>
+							</div>
+						</div>
+				<div class="col-sm-offset-1 col-sm-5">
+							<div class="single-about-img">
+								<img src="static/images/about_image.jpg">
+							</div>
+				</div>
+			</div>
+
+</section>
+<!--contact start -->
+		<section id="contact" class="contact">
+			<div class="section-heading text-center">
+				<h2>Contact Us</h2>
+			</div>
+			<div class="container">
+				<div class="contact-content">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-5 col-sm-6">
+							<div class="single-contact-box">
+								<div class="contact-form">
+									<form method="POST" action="">
+										<div class="row">
+											<div class="col-sm-6 col-xs-12">
+												<div class="form-group">
+												  <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+											<div class="col-sm-6 col-xs-12">
+												<div class="form-group">
+													<input type="email" class="form-control" id="email" placeholder="Email*" name="email">
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="form-group">
+													<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="form-group">
+													<textarea class="form-control" rows="8" id="comment" placeholder="Message" ></textarea>
+												</div><!--/.form-group-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+										<div class="row">
+											<div class="col-sm-12">
+												<div class="form-group">
+               										<input type="submit" class="btn btn-info" value="Submit">
+            									</div><!--/.single-single-contact-btn-->
+											</div><!--/.col-->
+										</div><!--/.row-->
+									</form><!--/form-->
+								</div><!--/.contact-form-->
+							</div><!--/.single-contact-box-->
+						</div><!--/.col-->
+						<div class="col-md-offset-1 col-md-5 col-sm-6">
+							<div class="single-contact-box">
+								<div class="contact-adress">
+									<div class='row'>
+										<col width ='80'>
+										</div>
+										<div class = 'col-sm-4'>
+										</div>
+										<col width = '80'>
+											<div class="contact-add-head">
+												<h3>Shivani Sharma</h3>
+												<p>Thapar Institute of Engineering & Technology(deemed to be university), Patiala</p>
+											</div>
+											<div class="contact-add-info">
+												
+											<div class="single-contact-add-info">
+												<h3>email</h3>
+												<p>ssharma_me21@thapar.edu</p>
+											</div>
+										
+												<a class ='git' href="https://github.com/shivanisharma07">Checkout GitHub</a>
+											</div>
+										</div>
+
+
+
+								<!--/ul-->
+								</div><!--/.hm-foot-icon-->
+							</div><!--/.single-contact-box-->
+						</div><!--/.col-->
+					</div><!--/.row-->
+				</div><!--/.contact-content-->
+			</div><!--/.container-->
+
+		</section><!--/.contact-->
+		<!--contact end -->
+
+
+
+
+
+
+
+
+{% endblock content %}
